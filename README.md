@@ -6,7 +6,7 @@ The `panoptes_baseline` package integrates `apriltag_ros` for AprilTag detection
 
 ## Installation
 
-Ensure you have the necessary dependencies installed. Follow the instructions for `apriltag_ros` and `depthai_ros` repositories.
+Install ROS2 Humble.
 
 Clone the repositories and build your workspace:
 
