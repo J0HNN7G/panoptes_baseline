@@ -15,7 +15,7 @@ setup(
         (os.path.join('share', package_name, 'launch'), glob(os.path.join('launch', '*launch.[pxy][yma]*'))),
         (os.path.join('share', package_name, 'cfg'), glob(os.path.join('cfg', '*.*'))),
     ],
-    install_requires=['setuptools', 'rclpy', 'vision_msgs', 'tf2_ros', 'geometry_msgs'],
+    install_requires=['setuptools', 'rclpy', 'vision_msgs', 'geometry_msgs', 'tf2_ros_py'],
     zip_safe=True,
     maintainer='jgf',
     maintainer_email='jonathan.frennert@gmail.com',
