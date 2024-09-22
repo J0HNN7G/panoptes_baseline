@@ -12,7 +12,7 @@ RUN mkdir -p panoptes_baseline/src
 WORKDIR /opt/jonathan/panoptes_baseline/src
 
 # depthai packages
-RUN git clone https://github.com/J0HNN7G/depthai-ros.git
+RUN git clone https://github.com/jonathanfrennert/depthai-ros.git
 
 RUN git clone --no-checkout https://github.com/ros/diagnostics.git
 WORKDIR /opt/jonathan/panoptes_baseline/src/diagnostics
@@ -39,7 +39,7 @@ RUN git sparse-checkout init --cone && \
 WORKDIR /opt/jonathan/panoptes_baseline/src
 
 # apriltag packages
-RUN git clone https://github.com/J0HNN7G/apriltag_ros.git
+RUN git clone https://github.com/jonathanfrennert/apriltag_ros.git
 
 RUN git clone https://github.com/AprilRobotics/apriltag.git
 RUN git clone https://github.com/christianrauch/apriltag_msgs.git
@@ -52,7 +52,7 @@ RUN git sparse-checkout init --cone && \
 WORKDIR /opt/jonathan/panoptes_baseline/src
 
 # panoptes baseline packages
-RUN git clone https://github.com/J0HNN7G/panoptes_baseline.git
+RUN git clone https://github.com/jonathanfrennert/panoptes_baseline.git
 
 RUN git clone --no-checkout https://github.com/ros2/common_interfaces.git
 WORKDIR /opt/jonathan/panoptes_baseline/src/common_interfaces
