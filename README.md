@@ -13,9 +13,9 @@ Clone the repositories and build your workspace:
 ```sh
 mkdir -p <workspace>/src
 cd <workspace>
-git clone https://github.com/J0HNN7G/panoptes_baseline src/panoptes_baseline
-git clone https://github.com/J0HNN7G/apriltag_ros.git src/apriltag_ros
-git clone https://github.com/J0HNN7G/depthai-ros.git src/depthai-ros
+git clone https://github.com/jonathanfrennert/panoptes_baseline src/panoptes_baseline
+git clone https://github.com/jonathanfrennert/apriltag_ros.git src/apriltag_ros
+git clone https://github.com/jonathanfrennert/depthai-ros.git src/depthai-ros
 colcon build
 ```
 
@@ -71,5 +71,5 @@ Replace `<filename>` with the name of your CSV file containing the transforms.
 ## Additional Resources
 
 - [AprilTag Documentation](https://april.eecs.umich.edu/software/apriltag.html)
-- [apriltag_ros GitHub Repository](https://github.com/J0HNN7G/apriltag_ros)
-- [depthai_ros GitHub Repository](https://github.com/J0HNN7G/depthai-ros)
+- [apriltag_ros GitHub Repository](https://github.com/jonathanfrennert/apriltag_ros)
+- [depthai_ros GitHub Repository](https://github.com/jonathanfrennert/depthai-ros)
