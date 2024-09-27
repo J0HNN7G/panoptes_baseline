@@ -4,6 +4,8 @@
 
 The `panoptes_baseline` package integrates `apriltag_ros` for AprilTag detection and `depthai_ros` for spatial human detection with the OAK-D Lite camera. It provides functionality for publishing AprilTag-to-camera and camera-to-human transforms. This setup is intended for use with static cameras, each assigned a unique namespace.
 
+Demo: https://youtu.be/21JUo0McDMo
+
 ## Installation
 
 Install ROS2 Humble.
